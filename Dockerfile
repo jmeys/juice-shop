@@ -1,5 +1,6 @@
 FROM node:10 as installer
 COPY . /juice-shop
+ENV NODE_ENV ctf
 WORKDIR /juice-shop
 RUN npm install --production --unsafe-perm
 RUN rm -rf frontend/node_modules
