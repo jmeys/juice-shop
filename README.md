@@ -13,7 +13,7 @@ overview please visit the official project page:
 
 ### Docker Container
 
-`docker run --rm -p 3000:3000 -dit fonske/juice-shop:latest`
+`docker run --rm -p 3000:3000 -dit -e NODE_ENV=ctf fonske/juice-shop:latest`
 
 
 ### From Sources
